@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Existing styles can be retained here */
+body {
+    background: #829ae2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200vh 60vw;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/*Scrolling*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navigation*/
+nav {
+    background-color: rgb(26, 54, 64);
+    position: fixed;
+    width: 100vw;
+    text-align: center; /* Center the nav items */
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block; /* Allow centering of the ul */
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+}
+
+
+
+
+
+
+/*Section*/
+section {
+    min-height:20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    color: black;
+    font-size: 25px;
+}
